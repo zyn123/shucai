@@ -1,0 +1,120 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: black;
+	color: white;
+	background: url(../img/04.jpg);
+	background-size: cover;
+	font-family: "微软雅黑";
+}
+/*.bottom{*/
+	/*!*width: 100%;*!*/
+	/*!*height: 100px;*!*/
+	/*!*background:#A5540B;*!*/
+	/*!*position: fixed;*!*/
+	/*!*bottom: 0;*!*/
+	/*!*left: 0;*!*/
+	/*line-height: 100px;*/
+	/*font-size: 3em;*/
+/*}*/
+.shengming{
+	position: absolute;
+	top:20px;
+	right:200px;
+	width:100px;
+	height:70px;
+	border-radius: 40%;
+	line-height: 80px;
+	background:url(../imgs/ming.png) no-repeat;
+	background-size: contain;
+	text-align: center;
+
+}
+.shi{
+	position: absolute;
+	top:20px;
+	right:300px;
+	width:100px;
+	height:70px;
+	border-radius: 40%;
+	line-height: 80px;
+	background:url(../imgs/ming.png) no-repeat;
+	background-size: contain;
+	text-align: center;
+
+}
+.sore{
+	position: absolute;
+	top:20px;
+	right:400px;
+	width:100px;
+	height:70px;
+	border-radius: 40%;
+	line-height: 80px;
+	background:url(../imgs/ming.png) no-repeat;
+	background-size: contain;
+	color:black;
+	text-align: center;
+}
+.guanqia{
+	position: absolute;
+	top:50px;
+
+	left:50%;
+	width:200px;
+	height:50px;
+	border-radius: 40%;
+	line-height: 50px;
+	background:yellow;
+	color:black;
+	cursor: pointer;
+	text-align: center;
+
+}
+.guanqia_nandu{
+	position: absolute;
+	left: 43%;
+	height: 100px;
+	bottom: 0;
+	width: 192px;
+	text-align: center;
+	/*background: green;*/
+	border-radius: 20px;	
+	cursor: pointer;
+	display: none;
+}
+.guanqia_nandu span{
+	width: 45px;
+	height: 50px;
+	display: block;
+	float: left;
+	line-height: 50px;
+}
+.new_gk{
+	width:100px;
+	height: 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	font-size: 30px;
+	line-height: 50px;
+	color: red;
+}
+.kai{
+	position: absolute;
+	top:20px;
+	left:200px;
+	width:100px;
+	height:100px;
+	border-radius: 40%;
+	line-height: 130px;
+	font-weight: bolder;
+	font-size: 26px;
+	background:url(../imgs/kai.png) no-repeat;
+	background-size: contain;
+	color:black;
+	text-align: center;
+	cursor: pointer;
+
+}
